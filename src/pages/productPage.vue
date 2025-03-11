@@ -87,12 +87,12 @@ export default {
   },
   setup() {
     const products = ref([
-      { id: 1, name: "旅平險", imageUrl: "../public/roadtrip.jpg" },
-      { id: 2, name: "登山險", imageUrl: "../public/hike.jpg" },
-      { id: 3, name: "意外險", imageUrl: "../public/accident.png" },
-      { id: 4, name: "醫療險", imageUrl: "../public/medical.jpg" },
-      { id: 5, name: "壽險", imageUrl: "../public/lifeinsurance1.jpg" },
-      { id: 6, name: "汽車險", imageUrl: "../public/carAccident.jpg" },
+      { id: 1, name: "旅平險", imageUrl: "/Vue_Insurance2/roadtrip.jpg" },
+      { id: 2, name: "登山險", imageUrl: "/Vue_Insurance2/hike.jpg" },
+      { id: 3, name: "意外險", imageUrl: "/Vue_Insurance2/accident.png" },
+      { id: 4, name: "醫療險", imageUrl: "/Vue_Insurance2/medical.jpg" },
+      { id: 5, name: "壽險", imageUrl: "/Vue_Insurance2/lifeinsurance1.jpg" },
+      { id: 6, name: "汽車險", imageUrl: "/Vue_Insurance2/carAccident.jpg" },
     ]);
 
     // 把原先單純文字的 productDescriptions 改成陣列物件 (示範：可依實際需求/商品改寫)
