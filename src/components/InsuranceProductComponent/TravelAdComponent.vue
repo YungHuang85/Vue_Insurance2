@@ -19,9 +19,9 @@ const onSlideChange = () => {
 // Define Swiper modules
 const modules = [Autoplay, Navigation, Pagination];
 
-const imgUrl1 = ref("/images/5.JPG");
-const imgUrl2 = ref("/images/6.jpg");
-const imgUrl3 = ref("/images/7.JPG");
+const imgUrl1 = ref("/Vue_Insurance2/5.JPG");
+const imgUrl2 = ref("/Vue_Insurance2/6.jpg");
+const imgUrl3 = ref("/Vue_Insurance2/7.JPG");
 
 </script>
 
